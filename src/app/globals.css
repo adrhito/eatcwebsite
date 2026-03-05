@@ -1,26 +1,72 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: #09090b;
+  --color-foreground: #fafafa;
+  --color-muted: #a1a1aa;
+  --color-surface: #18181b;
+  --color-surface-light: #27272a;
+  --color-carolina: #4B9CD3;
+  --color-carolina-dim: #3a7db0;
+  --color-carolina-glow: rgba(75, 156, 211, 0.12);
+  --color-carolina-border: rgba(75, 156, 211, 0.2);
+  --color-border: rgba(255, 255, 255, 0.06);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Inter, Arial, sans-serif;
+  --font-heading: "Copernicus-Bold", "Copernicus Trial Medium",
+    "Copernicus Trial Book", Georgia, "Times New Roman", serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Carolina blue gradient text utility */
+.text-gradient-carolina {
+  background: linear-gradient(135deg, #fafafa 30%, #4B9CD3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-blue {
+  background: linear-gradient(135deg, #4B9CD3 0%, #7BAFD4 50%, #4B9CD3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Carolina blue glow card */
+.glow-carolina {
+  box-shadow: 0 0 80px rgba(75, 156, 211, 0.08), 0 0 32px rgba(75, 156, 211, 0.04);
+}
+
+/* Blue accent line */
+.accent-line-carolina {
+  background: linear-gradient(90deg, transparent 0%, #4B9CD3 50%, transparent 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+::selection {
+  background: rgba(75, 156, 211, 0.3);
+  color: #fafafa;
 }
