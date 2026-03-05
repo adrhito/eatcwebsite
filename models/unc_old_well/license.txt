@@ -1,0 +1,11 @@
+Model Information:
+* title:	UNC Old Well
+* source:	https://sketchfab.com/3d-models/unc-old-well-13f0b2efb35f4d13868e634a68b6465a
+* author:	RLA Archaeology (https://sketchfab.com/rla-archaeology)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "UNC Old Well" (https://sketchfab.com/3d-models/unc-old-well-13f0b2efb35f4d13868e634a68b6465a) by RLA Archaeology (https://sketchfab.com/rla-archaeology) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

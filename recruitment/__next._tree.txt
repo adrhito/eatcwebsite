@@ -1,0 +1,5 @@
+:HL["/eatcwebsite/_next/static/chunks/96030e25729afcbf.css","style"]
+:HL["https://db.onlinewebfonts.com/c/2bdc8fe82a76b8d30126b56a085ac763?family=Copernicus-Bold","style"]
+:HL["https://db.onlinewebfonts.com/c/5b2e36f69d0c436561c98c0675b8b763?family=Copernicus+Trial+Book","style"]
+:HL["https://db.onlinewebfonts.com/c/02371f4aed177647051bc29dcbd5dc0e?family=Copernicus+Trial+Medium","style"]
+0:{"buildId":"SfvvNzqgjrHJ-a8kZL7Ee","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"recruitment","paramType":null,"paramKey":"recruitment","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
